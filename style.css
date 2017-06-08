@@ -1,0 +1,95 @@
+body{
+    /*background:-webkit-linear-gradient(left,rgb(183, 244, 52),rgb(223, 251, 166));*/
+    background-color: rgb(233, 235, 238);
+    margin: 0;
+}
+p,h1{
+
+    display: inline-block;
+}
+.coment{
+    width: 300px;
+    font-size: 70%;
+    color: grey;
+}
+
+/*Main Header of the Page*/
+.head {
+    text-align: right;
+    /*border: 2px solid black;*/
+    padding: 5px 10px;
+    background-color: rgb(60, 90, 153);
+}
+
+/* Signup Input Fields*/
+.signup{
+    
+    border-bottom: 1px solid gray;
+    /*margin-top: 15px;*/
+    float: right;
+    padding: 10px;
+
+}
+h1{
+
+    float: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+input{
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: white;
+    
+}
+#signup_button{
+    margin-left : 20px;
+    padding: 10px 30px;
+    margin: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(94, 170, 74) ;
+}
+#signup_button:hover{
+ background-color: rgb(94, 152, 74) ;
+}
+input:hover {
+
+    font-size: 90%;
+    border-color: lightblue;
+}
+ .intro{
+
+     font-size: 40px;
+     margin-left: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+.makeWhite{
+
+    color: white;
+}
+#loginEmail , #loginPassword{
+
+    font-size: unset;
+    border-radius: 0;
+    padding: 2px;
+    
+}
+button:hover{
+    cursor: pointer; 
+}
+.btnColor{
+    background-color: rgb(66, 98, 178);
+    border: none;
+}
+.btnColor:hover{
+    background-color: rgb(66, 110, 178);  
+}
+
+/***************Home Page******************/
+#greet{
+
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

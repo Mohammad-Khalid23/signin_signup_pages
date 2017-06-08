@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebok - log in or signup</title>
+</head>
+
+<body>
+
+    <div class="head">
+        <h1 class="makeWhite">facebook </h1>
+
+        <!--<form>-->
+            <p class="makeWhite"> Email <br> <input type="email" id="loginEmail" size="15"></p>
+            <p class="makeWhite">Password <br><input type="password" id="loginPassword"  size="15"></p>
+            <button class="makeWhite btnColor" onclick="login()">Log in</button>
+        <!--</form>-->
+
+
+    </div>
+    <p class="intro"> 
+        Mohammad Khalid <br>
+        Roll # 4336 <br>
+        Batch 4.1 
+
+    </p>
+
+    <!-----------------Signup Form---------------------->
+    <div class="signup">
+        <h1> <b>Creat a new account</b></h1>
+
+        <form>
+            <p><input type="text" id="Fname" placeholder="First Name" size="15" ></p>
+            <p><input type="text" id="Lname" placeholder="Last Name" size="15" ></p> <br>
+            <p> <input type="email" id="email" placeholder="Email Address.." size="38" ></p> <br>
+            <p> <input type="password" id="password" placeholder="New Password.." size="38" ></p><br>
+            <p><input type="text" id="age" placeholder="Age.." size="38" ></p><br>
+            <p><input type="text" id="number" placeholder="Cell Number.." size="38" ></p><br>
+            <p class="coment">By clicking Create Account, you agree to our Terms and confirm that you have read our Data Policy, including
+                our Cookie Use Policy. You may receive SMS message notifications from Facebook and can opt out at any time.</p> <br>
+            <button onclick="signup()" id='signup_button'><b> Create Account</b></button>
+        </form>
+
+    </div>
+
+
+    <script src="app.js">
+
+    </script>
+</body>
+
+</html>
